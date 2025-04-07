@@ -1,37 +1,55 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>박윤교의 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>나의 포트폴리오</h1>
+    <nav>
+      <ul>
+        <li><a href="#profile">프로필</a></li>
+        <li><a href="#contact">연락처</a></li>
+        <li><a href="#projects">프로젝트</a></li>
+        <li><a href="form.html">폼 제출</a></li>
+      </ul>
+    </nav>
+  </header>
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+  <main>
+    <section id="profile">
+      <h2>프로필</h2>
+      <img src="media/profile.jpeg" alt="프로필 이미지" width="150">
+      <p>안녕하세요, 저는 웹 개발을 공부하고 있는 학생입니다.</p>
+    </section>
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+    <section id="contact">
+      <h2>연락처</h2>
+      <ul>
+        <li>Email: zxcqwe1112@naver.com</li>
+        <li>GitHub: <a href="https://github.com/parkyunkyo" target="_blank">https://github.com/parkyunkyo</a></li>
+      </ul>
+    </section>
 
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+    <section id="projects">
+      <h2>프로젝트</h2>
+      <ol>
+        <li>
+          <h3>1. 덕성 다이너</h3>
+          <p>학교 식당 소개 페이지</p>
+          <ul>
+            <li><a href="https://yourid.github.io/duksung_diner/">웹사이트 링크</a></li>
+            <li><a href="https://github.com/yourid/duksung_diner">GitHub 저장소</a></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>작성자: 당신의 이름 | 이메일: example@email.com</p>
+  </footer>
+</body>
+</html>
